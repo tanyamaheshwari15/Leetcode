@@ -6,8 +6,11 @@ class Solution {
             map.put(num, map.getOrDefault(num, 0) +1);
         }
 
-        Map.Entry<Integer, Integer> max = Collections.max(map.entrySet(), Map.Entry.comparingByValue());
+        for(Map.Entry<Integer, Integer> max : map.entrySet()){
+            if(max.getValue() > nums.length/2)
+                return max.getKey();
+        }
 
-        return max.getKey();
+        return 0;
     }
 }
