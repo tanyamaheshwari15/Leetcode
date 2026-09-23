@@ -12,32 +12,50 @@ class Solution {
     public ListNode swapPairs(ListNode head) {
         if(head == null || head.next == null)
             return head;
-        
-        ListNode prev = head;
-        ListNode currNode = head.next;
-        ListNode before = null;
 
-        head = currNode;
-        ListNode next = currNode.next;
+        // --------- with dummy node ----------
+        ListNode prev = new ListNode(0);
+        ListNode dummy = prev;
+        prev.next = head;
 
-        currNode.next = prev; 
-        prev.next = next;
+        while(prev.next !=null && prev.next.next != null){
+            ListNode first = prev.next;
+            ListNode second = prev.next.next;
 
-        before = prev;
-        prev = next;
+            first.next = second.next;
+            second.next = first;
+            prev.next = second;
 
-        while(prev != null && prev.next !=null){
-
-            currNode = prev.next;
-            next = currNode.next;
-
-            before.next = currNode;
-            currNode.next = prev; 
-            prev.next = next;
-
-            before = prev;
-            prev = next;
+            prev = first;
         }
-        return head;
+        return dummy.next;
+
+        // -------without dummy node--------
+        // ListNode prev = head;
+        // ListNode currNode = head.next;
+        // ListNode before = null;
+
+        // head = currNode;
+        // ListNode next = currNode.next;
+
+        // currNode.next = prev; 
+        // prev.next = next;
+
+        // before = prev;
+        // prev = next;
+
+        // while(prev != null && prev.next !=null){
+
+        //     currNode = prev.next;
+        //     next = currNode.next;
+
+        //     before.next = currNode;
+        //     currNode.next = prev; 
+        //     prev.next = next;
+
+        //     before = prev;
+        //     prev = next;
+        // }
+        // return head;
     }
 }
