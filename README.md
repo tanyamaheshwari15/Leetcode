@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0033-search-in-rotated-sorted-array](https://github.com/tanyamaheshwari15/Leetcode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0053-maximum-subarray](https://github.com/tanyamaheshwari15/Leetcode/tree/master/0053-maximum-subarray) |
 | [0169-majority-element](https://github.com/tanyamaheshwari15/Leetcode/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/tanyamaheshwari15/Leetcode/tree/master/0217-contains-duplicate) |
@@ -61,4 +62,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/tanyamaheshwari15/Leetcode/tree/master/0053-maximum-subarray) |
+## Binary Search
+|  |
+| ------- |
+| [0033-search-in-rotated-sorted-array](https://github.com/tanyamaheshwari15/Leetcode/tree/master/0033-search-in-rotated-sorted-array) |
 <!---LeetCode Topics End-->
