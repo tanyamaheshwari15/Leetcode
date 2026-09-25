@@ -13,9 +13,11 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/tanyamaheshwari15/Leetcode/tree/master/0019-remove-nth-node-from-end-of-list) |
+| [0031-next-permutation](https://github.com/tanyamaheshwari15/Leetcode/tree/master/0031-next-permutation) |
 ## Array
 |  |
 | ------- |
+| [0031-next-permutation](https://github.com/tanyamaheshwari15/Leetcode/tree/master/0031-next-permutation) |
 | [0033-search-in-rotated-sorted-array](https://github.com/tanyamaheshwari15/Leetcode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0053-maximum-subarray](https://github.com/tanyamaheshwari15/Leetcode/tree/master/0053-maximum-subarray) |
 | [0169-majority-element](https://github.com/tanyamaheshwari15/Leetcode/tree/master/0169-majority-element) |
