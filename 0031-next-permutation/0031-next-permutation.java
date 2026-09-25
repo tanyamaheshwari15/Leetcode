@@ -24,8 +24,8 @@ class Solution {
             
             if(nums[i] < nums[i+1]){
 
-                for(int j = size; j > i; j--){
-                    if(nums[j] < min && nums[j] > nums[i]){ 
+                for(int j = i+1; j <= size; j++){
+                    if(nums[j] <= min && nums[j] > nums[i]){ 
                         min = nums[j];
                         index = j;
                     }  
