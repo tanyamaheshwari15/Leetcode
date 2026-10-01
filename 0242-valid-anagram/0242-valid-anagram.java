@@ -2,15 +2,17 @@ class Solution {
     public boolean isAnagram(String s, String t) {
         if(s.length() != t.length()) return false;
 
-        int[] count = new int[26];
+        int[] freq1 = new int[26];
+        int[] freq2 = new int[26];
 
         for(int i = 0; i < s.length(); i++){
-            count[s.charAt(i) - 'a']++;
-            count[t.charAt(i) - 'a']--;
+            freq1[s.charAt(i) - 'a']++;
         }
-
-        for(int x : count){
-            if(x != 0) return false;
+        for(int i = 0; i < t.length(); i++){
+            freq2[t.charAt(i) - 'a']++;
+        }
+        for(int i = 0; i < 26; i++){
+            if(freq1[i] != freq2[i]) return false;
         }
 
         return true;
