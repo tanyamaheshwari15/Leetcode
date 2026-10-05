@@ -106,15 +106,18 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0020-valid-parentheses](https://github.com/tanyamaheshwari15/Leetcode/tree/master/0020-valid-parentheses) |
 | [0125-valid-palindrome](https://github.com/tanyamaheshwari15/Leetcode/tree/master/0125-valid-palindrome) |
 | [0242-valid-anagram](https://github.com/tanyamaheshwari15/Leetcode/tree/master/0242-valid-anagram) |
+| [0856-score-of-parentheses](https://github.com/tanyamaheshwari15/Leetcode/tree/master/0856-score-of-parentheses) |
 ## Stack
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/tanyamaheshwari15/Leetcode/tree/master/0020-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/tanyamaheshwari15/Leetcode/tree/master/0042-trapping-rain-water) |
+| [0856-score-of-parentheses](https://github.com/tanyamaheshwari15/Leetcode/tree/master/0856-score-of-parentheses) |
 ## Bracket Sequences
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/tanyamaheshwari15/Leetcode/tree/master/0020-valid-parentheses) |
+| [0856-score-of-parentheses](https://github.com/tanyamaheshwari15/Leetcode/tree/master/0856-score-of-parentheses) |
 ## Monotonic Stack
 |  |
 | ------- |
